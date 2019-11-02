@@ -9,9 +9,9 @@ function Header(props){
         <header>
             <nav class='navStyles'>
                 <ul class='ulStyles'>
-                    <li><Link to="/" class='aStyles'>Home</Link></li>
-                    <li><Link to="/contact" class='aStyles'>Contact Me</Link></li>
-                    <li><Link to="/projects" class='aStyles'>My Projects</Link></li>
+                    <li class='aStyles'><Link to="/" ><button class="buttonStyles">Home</button></Link></li>
+                    <li class='aStyles'><Link to="/contact" ><button class="buttonStyles">Contact Me</button></Link></li>
+                    <li class='aStyles'><Link to="/projects" ><button class="buttonStyles">My Projects</button></Link></li>
                 </ul>
             </nav>
         </header>
