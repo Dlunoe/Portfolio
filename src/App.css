@@ -13,20 +13,18 @@
  justify-content: space-between;
   /* padding: 20px; */
   background-color: lightgray;
-  border-bottom: solid red;
+  border-bottom: solid #994d00;
 }
 
 .ulStyles{
     display:flex;
     list-style: none;
-    justify-content: space-between;
     width: 100% ;
     margin: 0;
     padding: 0
   }
 
 .aStyles{
-    /* padding: 25px; */
     color: darkgreen;
     width:100%
   }
@@ -35,4 +33,10 @@
     height: 100%;
     width: 100%;
     font-size: 25px;
+    background-color: black;
+    color:#994d00;
+    border:black;
+  }
+  .buttonStyles:hover{
+    background-color: #14141f;
   }
