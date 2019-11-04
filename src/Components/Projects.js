@@ -2,7 +2,12 @@ import React from 'react'
 
 function Projects(){
     return(
-        <p>this is Projects</p>
+        <div className="projects">
+            <p>this is Projects</p>
+            <a href="https://safe-citadel-26643.herokuapp.com/">diaries</a>
+            <a href="https://reviews-app-client.herokuapp.com/">reviews</a>
+
+        </div>
     )
 }
 
