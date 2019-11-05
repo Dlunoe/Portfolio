@@ -18,6 +18,12 @@ render(){
             <div class="skills">
                 <p class="javascriptTag">Javascript</p>
                 <ProgressBar progress={50} className="javascript"/>
+                <p class="htmlCssTag">html/css</p>
+                <ProgressBar progress={50} className="htmlCss"/>
+                <p class="reactTag">React</p>
+                <ProgressBar progress={50} className="react"/>
+                <p class="rubyTag">Ruby</p>
+                <ProgressBar progress={50} className="ruby"/>
             </div>
         </div>
         
