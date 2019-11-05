@@ -40,3 +40,6 @@
   .buttonStyles:hover{
     background-color: #14141f;
   }
+  .projectList{
+    list-style: none;
+  }
