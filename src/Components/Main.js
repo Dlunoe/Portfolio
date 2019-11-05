@@ -7,7 +7,7 @@ import '../App.css'
 
 function Main(){
     return(
-        <main class="main">
+        <main className="main">
             <Switch>
                 <Route exact path="/" component={Home}/>
                 <Route path="/contact" component={Contact}/>

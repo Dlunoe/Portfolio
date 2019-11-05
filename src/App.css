@@ -7,6 +7,12 @@
  width: 100%;
  font-family: 'ZCOOL XiaoWei', serif;
 }
+.homeContainer{
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+.main{
+  font-family: 'ZCOOL XiaoWei', serif;
+}
 
 .navStyles{
   height:80px;
@@ -83,5 +89,13 @@
   .brand{
     margin:auto;
     text-align: center;
-    width: 50%;
+    width: 60%;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 16pt;
+  }
+  .links{
+    color:blue;
+  }
+  .links:hover{
+    color: darkblue;
   }
