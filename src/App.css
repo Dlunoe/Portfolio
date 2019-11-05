@@ -5,6 +5,7 @@
  background-size: 100%;
  height: 100%;
  width: 100%;
+ font-family: 'ZCOOL XiaoWei', serif;
 }
 
 .navStyles{
@@ -78,4 +79,9 @@
   .diariesButton:hover{
 
     background:url("https://i.imgur.com/EiM3pEG.png?1")
+  }
+  .brand{
+    margin:auto;
+    text-align: center;
+    width: 50%;
   }

@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import Mailto from 'react-protected-mailto'
+import '../App.css'
 
 class Contact extends Component{
 render(){
