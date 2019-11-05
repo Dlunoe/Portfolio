@@ -40,6 +40,34 @@
   .buttonStyles:hover{
     background-color: #14141f;
   }
+  .projects{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .projectHead{
+    width:100%;
+  }
   .projectList{
+    width: auto;
     list-style: none;
+    padding: 0 20px 0 20px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+  }
+  .reviewsButton{
+    width: 500px;
+    height: 333px;
+  }
+  .reviewsButton:hover{
+    background:url("https://i.imgur.com/A5a6JD6.png?1");
+    opacity: 1;
+    transition:all 1s;
+  }
+  .diariesButton{
+    height: 333px;
+    width: 500px;
+  }
+  .diariesButton:hover{
+    background:url("https://i.imgur.com/EiM3pEG.png?1")
   }
