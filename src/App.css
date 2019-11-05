@@ -4,7 +4,7 @@
  background-attachment: fixed;
  background-size: 100%;
  height: 100%;
- width: 100%
+ width: 100%;
 }
 
 .navStyles{
@@ -21,12 +21,12 @@
     list-style: none;
     width: 100% ;
     margin: 0;
-    padding: 0
+    padding: 0;
   }
 
 .aStyles{
     color: darkgreen;
-    width:100%
+    width:100%;
   }
 
   .buttonStyles{
@@ -36,6 +36,7 @@
     background-color: black;
     color:#994d00;
     border:black;
+    font-family: 'ZCOOL XiaoWei', serif;
   }
   .buttonStyles:hover{
     background-color: #14141f;
@@ -58,16 +59,23 @@
   .reviewsButton{
     width: 500px;
     height: 333px;
+    background:darkgray;
+    font-size: 45px;
+    border-radius: 8px;
+    font-family: 'ZCOOL XiaoWei', serif;
   }
   .reviewsButton:hover{
     background:url("https://i.imgur.com/A5a6JD6.png?1");
-    opacity: 1;
-    transition:all 1s;
   }
   .diariesButton{
+    font-family: 'ZCOOL XiaoWei', serif;
     height: 333px;
     width: 500px;
+    font-size:45px;
+    border-radius: 8px;
+    background: darkgray;
   }
   .diariesButton:hover{
+
     background:url("https://i.imgur.com/EiM3pEG.png?1")
   }
