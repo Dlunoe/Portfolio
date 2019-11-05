@@ -3,7 +3,6 @@ import {ProgressBar} from 'react-mdl';
 import '../App.css';
 
 
-import BackSkills from './BackSkills'
 
 class Home extends Component{
 render(){

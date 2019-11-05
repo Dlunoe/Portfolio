@@ -59,13 +59,16 @@
   .reviewsButton{
     width: 500px;
     height: 333px;
-    background:darkgray;
+    background: url("https://i.imgur.com/A5a6JD6.png?1") ;
+    opacity: .7;
     font-size: 45px;
     border-radius: 8px;
     font-family: 'ZCOOL XiaoWei', serif;
+    transition: 1s ease 0s;
   }
   .reviewsButton:hover{
     background:url("https://i.imgur.com/A5a6JD6.png?1");
+    opacity: 1;
   }
   .diariesButton{
     font-family: 'ZCOOL XiaoWei', serif;
@@ -73,10 +76,12 @@
     width: 500px;
     font-size:45px;
     border-radius: 8px;
-    background: darkgray;
+    background:url("https://i.imgur.com/EiM3pEG.png?1");
+    opacity: .7;
+    transition: 1s ease 0s;
   }
   .diariesButton:hover{
-
+    opacity:1;
     background:url("https://i.imgur.com/EiM3pEG.png?1")
   }
   .links{
