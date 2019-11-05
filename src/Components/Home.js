@@ -15,8 +15,9 @@ render(){
                  As a developer I have a knack for problem solving,
                  while also maintaining a perspective of the end-user experience</h3>
             </div>
-            <div>
-                <ProgressBar progress={50} />
+            <div class="skills">
+                <p class="javascriptTag">Javascript</p>
+                <ProgressBar progress={50} className="javascript"/>
             </div>
         </div>
         

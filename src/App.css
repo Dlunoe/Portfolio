@@ -7,13 +7,6 @@
  width: 100%;
  font-family: 'ZCOOL XiaoWei', serif;
 }
-.homeContainer{
-  font-family: 'ZCOOL XiaoWei', serif;
-}
-.main{
-  font-family: 'ZCOOL XiaoWei', serif;
-}
-
 .navStyles{
   height:80px;
   display: flex;
@@ -86,6 +79,13 @@
 
     background:url("https://i.imgur.com/EiM3pEG.png?1")
   }
+  .links{
+    color:blue;
+  }
+  .links:hover{
+    color: darkblue;
+  }
+
   .brand{
     margin:auto;
     text-align: center;
@@ -93,9 +93,24 @@
     font-family: 'ZCOOL XiaoWei', serif;
     font-size: 16pt;
   }
-  .links{
-    color:blue;
+  .skills{
+    width: 760px;
+    background-color: black;
+    color:lightgray;
+    border: solid 1px #994d00;
+    align-content:center;
+    margin: auto;
+    display: grid;
+    grid-template-rows:30px;
+    grid-template-columns: 200px 550px;
   }
-  .links:hover{
-    color: darkblue;
+  .javascriptTag{
+    grid-row: 1;
+    grid-column: 1;
+    font-size: 16pt;
+  }
+  .javascript{
+    margin: 13px 25px;;
+    grid-row:1;
+    grid-column:2;
   }
