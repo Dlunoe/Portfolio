@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import {ProgressBar} from 'react-mdl';
+import '../Components/Styles/skills.css';
+import '../Components/Styles/resume.css';
 import '../App.css';
 
 
@@ -31,6 +33,16 @@ render(){
                 <ProgressBar progress={75} className="secondRow"/>
                 <p class="thirdTag">Rails</p>
                 <ProgressBar progress={50} className="thirdRow"/>
+            </div>
+            <div  class="resume">
+                <h3>Other skills</h3>
+                <ul class="otherSkills">
+                    <li>Customer-facing experience</li>
+                    <li>customer-satisfaction experience</li>
+                    <li>can work in fast paced workplaces</li>
+                    <li>work in a close team of coworkers</li>
+                    <li>experience in managing teams of up to 8 people</li>
+                </ul>
             </div>
         </div>
         

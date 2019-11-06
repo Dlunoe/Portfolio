@@ -1,0 +1,15 @@
+.resume{
+    background-color:black;
+    outline: solid 1px white;
+    color:white;
+    margin:auto;
+    text-align: center;
+    width: 60%;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 16pt;
+    padding-bottom: 5%;
+  }
+  .otherSkills{
+      display: flex grid;
+      grid-template-columns:1 1;
+  }

@@ -1,0 +1,71 @@
+.skills{
+    width: 760px;
+    background-color: black;
+    color:lightgray;
+    border: solid 1px #994d00;
+    align-content:center;
+    margin: auto;
+    display: grid;
+    grid-template-rows:30px 30px 30px 30px;
+    grid-template-columns: 200px 550px;
+  }
+  .firstTag{
+    margin:0;
+    border-right: 1px #994d00 solid;
+    grid-row: 1;
+    grid-column: 1;
+    font-size: 16pt;
+  }
+  .firstRow{
+    margin: 13px 25px;;
+    grid-row:1;
+    grid-column:2;
+    height:100%;
+  }
+  .secondTag{
+    margin:0;
+    border-right: 1px #994d00 solid;
+    grid-row: 2;
+    grid-column: 1;
+    font-size: 16pt;
+  }
+  .secondRow{
+    margin: 13px 25px;;
+    grid-row:2;
+    grid-column:2;
+  }
+  .thirdTag{
+    margin:0;
+    border-right: 1px #994d00 solid;
+    grid-row: 3;
+    grid-column: 1;
+    font-size: 16pt;
+  }
+  .thirdRow{
+    margin: 13px 25px;;
+    grid-row:3;
+    grid-column:2;
+  }
+  .fourthTag{
+    margin:0;
+    border-right: 1px #994d00 solid;
+    grid-row: 4;
+    grid-column: 1;
+    font-size: 16pt;
+  }
+  .fourthRow{
+    margin: 13px 25px;;
+    grid-row:4;
+    grid-column:2;
+  }
+  .backend{
+    width: 760px;
+    background-color: black;
+    color:lightgray;
+    border: solid 1px #994d00;
+    align-content:center;
+    margin: auto;
+    display: grid;
+    grid-template-rows:30px 30px 30px;
+    grid-template-columns: 200px 550px;
+  }
