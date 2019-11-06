@@ -7,7 +7,7 @@ render(){
     return(
         <div>
             <p>
-                <h5>Want to work together? Get in touch!</h5>
+                <h5>Get in touch</h5>
                 Phone:<Mailto tel='720-749-0720' class="links"/><br/>
                 Email: <Mailto
                     email='dlunoe@yahoo.com'
