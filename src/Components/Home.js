@@ -35,13 +35,36 @@ render(){
                 <ProgressBar progress={50} className="thirdRow"/>
             </div>
             <div  class="resume">
-                <h3>Other skills</h3>
+                <h4>Other skills</h4>
                 <ul class="otherSkills">
                     <li>Customer-facing experience</li>
                     <li>customer-satisfaction experience</li>
                     <li>can work in fast paced workplaces</li>
                     <li>work in a close team of coworkers</li>
                     <li>experience in managing teams of up to 8 people</li>
+                </ul>
+                <h4>Previous Work</h4>
+                <ul class="previousWork">
+                    <li>Shift Manager, Noodles & Company 2016-2019<br/>
+                    -Managed teams of 4-8 people, scheduling, inventory, training
+                    </li>
+                    <li>Shift Manager, Qdoba 2014-2016 <br/>
+                    -Managed teams of 3-6 people, inventory, training
+                    </li>
+                    
+                    <li>Trainer, Subway 2012-2014 <br/>
+                    -Customer facing experience, training new team-members
+                    </li>
+                </ul>
+                <h4>Education</h4>
+                <ul class="education">
+                    <li>General Assembly Software Engineering Immersive<br/>
+                         May 2019-Nov-2019
+                        Software Engineer</li>
+                    <li>
+                    	Red Rocks Community College<br/>
+                        Associate of Arts Degree, 2018
+                    </li>
                 </ul>
             </div>
         </div>

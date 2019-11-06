@@ -4,12 +4,27 @@
     color:white;
     margin:auto;
     text-align: center;
-    width: 60%;
+    width: 700px;
     font-family: 'ZCOOL XiaoWei', serif;
     font-size: 16pt;
     padding-bottom: 5%;
   }
+  h4{
+    font-family: 'ZCOOL XiaoWei', serif;
+  }
+  li{
+    font-family: 'ZCOOL XiaoWei', serif;
+  }
   .otherSkills{
-      display: flex grid;
-      grid-template-columns:1 1;
+      
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    padding: 0 40px;
+  }
+  .previousWork{
+      padding: 0 40px;
+  }
+  .education{
+      padding:0 40px;
   }
