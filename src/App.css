@@ -7,6 +7,12 @@
  width: 100%;
  font-family: 'ZCOOL XiaoWei', serif;
 }
+/* .main{
+  height: ;
+  border-top: 10px black solid;
+  border-left:60px black solid;
+  border-right: 60px black solid;
+} */
 .navStyles{
   height:80px;
   display: flex;
