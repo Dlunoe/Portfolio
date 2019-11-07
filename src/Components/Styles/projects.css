@@ -45,3 +45,15 @@
     opacity:1;
     background:url("https://i.imgur.com/EiM3pEG.png?1")
   }
+  .listItem{
+    display:flex;
+    flex-direction: column;
+  }
+  .gitLink{
+    position: relative;
+    color:blue;
+  }
+  .gitLink:hover{
+    position: relative;
+    color: darkblue;
+  }
