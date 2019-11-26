@@ -12,7 +12,7 @@ render(){
     return(
         <div class="homeContainer">
             <div class="about">
-                <h1>Dustin Lunoe</h1>
+                <h1 class="other">Dustin Lunoe</h1>
                 <h3 className="brand">Software developer who uses his experience and skills in managing people and customer experience.
                  As a developer I have a knack for problem solving,
                  while also maintaining a perspective of the end-user experience</h3>
