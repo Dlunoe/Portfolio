@@ -3,6 +3,7 @@ import {ProgressBar} from 'react-mdl';
 import '../Components/Styles/skills.css';
 import '../Components/Styles/resume.css';
 import '../App.css';
+import Resume from '../Resume/Dustin_Lunoe_Resume.pdf';
 
 
 
@@ -34,6 +35,7 @@ render(){
                 <p class="thirdTag">Rails</p>
                 <ProgressBar progress={50} className="thirdRow"/>
             </div>
+            <div><a href = {Resume} target='_blank'>Resume</a></div>
             <div  class="resume">
                 <h4>Other skills</h4>
                 <ul class="otherSkills">
