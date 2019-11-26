@@ -1,30 +1,13 @@
-.resume{
-    background-color:black;
-    outline: solid 1px white;
-    color:white;
-    margin:auto;
-    text-align: left;
-    width: 700px;
-    font-family: 'ZCOOL XiaoWei', serif;
-    font-size: 16pt;
-    padding-bottom: 5%;
-  }
-  h4{
-    font-family: 'ZCOOL XiaoWei', serif;
-  }
-  li{
-    font-family: 'ZCOOL XiaoWei', serif;
-  }
-  .otherSkills{
-      
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-    padding: 0 40px;
-  }
-  .previousWork{
-      padding: 0 40px;
-  }
-  .education{
-      padding:0 40px;
-  }
+.resumeButton{
+  height: 50px;
+  width: 25%;
+  font-size: 25px;
+  background-color: black;
+  color:#994d00;
+  border:black;
+  font-family: 'ZCOOL XiaoWei', serif;
+  margin: 10px;
+}
+.resumeButton:hover{
+  background-color: #14141f;
+}
