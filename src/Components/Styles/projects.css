@@ -13,6 +13,22 @@
     flex-wrap:wrap;
     justify-content: space-around;
   }
+  .pokedexButton{
+    width: 500px;
+    height: 333px;
+    background: url("https://i.imgur.com/gWzzafw.png?1") ;
+    opacity: .7;
+    margin: 15px 15px;
+    font-size: 45px;
+    border-radius: 8px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    transition: .5s ease-in-out;
+  }
+  .pokedexButton:hover{
+    background:url("https://i.imgur.com/gWzzafw.png?1");
+    opacity: 1;
+    transform: scale(1.1);
+  }
   .reviewsButton{
     width: 500px;
     height: 333px;

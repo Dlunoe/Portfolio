@@ -16,8 +16,8 @@ class Projects extends Component{
                 <ul class="projectList">
                 <li class="listItem">
                         <a target="_blank" href="https://dustins-poke-api.herokuapp.com/" 
-                        class="diaries">
-                            <button class="diariesButton">Poké-API</button>
+                        class="pokedex">
+                            <button class="pokedexButton">Poké-API</button>
                         </a>
                         <a class="gitLink" href="https://github.com/Dlunoe/PokeAPI">GitHub</a>
                     </li>
