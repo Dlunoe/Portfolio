@@ -14,6 +14,13 @@ class Projects extends Component{
         return(
             <div className="projects">
                 <ul class="projectList">
+                <li class="listItem">
+                        <a target="_blank" href="https://dustins-poke-api.herokuapp.com/" 
+                        class="diaries">
+                            <button class="diariesButton">Poké-API</button>
+                        </a>
+                        <a class="gitLink" href="https://github.com/Dlunoe/PokeAPI">GitHub</a>
+                    </li>
                     <li class="listItem">
                         <a target="_blank" href="https://safe-citadel-26643.herokuapp.com/" 
                         class="diaries">
